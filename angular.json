@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "sampark-app"
+  "defaultProject": "sampark-app",
+  "cli": {
+    "analytics": "d96c746e-90fb-4d1d-beea-a69858a9edc2"
+  }
 }

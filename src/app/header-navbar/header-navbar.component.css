@@ -1,0 +1,48 @@
+header {
+    display: block;
+    color: rgb(42, 61, 76);
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(42, 61, 76, 0.1) 0px 2px 10px 0px;
+    box-sizing: border-box;
+
+}
+.header-contanier {
+    display: grid;
+    grid-template-areas:'utility-row''tabs-row';
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.header-row {
+    grid-template-areas: "utility-row" "tabs-row";
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: rgb(42, 61, 76);
+}
+.header-title { 
+    display: block;
+    font-family: rubik;
+    color: #f75d1c;
+    font-size: 35px;
+    box-sizing: content-box;
+    font-weight: 100;
+    line-height: 36px;
+    margin-block-end: 23.45px;
+    margin-block-start: 23.45px;
+}
+

@@ -1,33 +1,38 @@
-import { environment } from './../environments/environment';
+import { HomeComponent } from './home/home.component';
+import {  Routes, RouterModule } from '@angular/router';
+import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
-
-
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
-import { HomeComponent } from './home/home.component';
+import { ContactsComponent } from './contacts/contacts.component';
+import { FollowUpComponent } from './follow-up/follow-up.component';
+import { AdminComponent } from './admin/admin.component';
 
+const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'contacts', component: ContactsComponent },
+  { path: 'follow up', component: FollowUpComponent },
+  { path: 'admin', component: AdminComponent }
 
+];
 @NgModule({
   declarations: [
     AppComponent,
     HeaderNavbarComponent,
-    HomeComponent
+    HomeComponent,
+    ContactsComponent,
+    FollowUpComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-
-
-
-
-  ],
-  providers: [],
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
+ ],
+ exports: [
+   RouterModule
+ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

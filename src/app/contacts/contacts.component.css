@@ -137,3 +137,162 @@ h2 {
     font: 400 13.3333px Arial;
 }
 }
+.contacts-data-container {
+    margin: 0 auto;
+    padding: 0 7rem;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: inherit;
+}
+.contacts-data-cardlist-container {
+    top: 15rem;
+    animation-name: slideUp;
+    animation-duration: 0.25s;
+    position: absolute;
+    top: 245px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 6rem 0 7rem;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.contacts-card-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 16rem));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    justify-content: center;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.contacts-card-contanier {
+    background: #ffffff;
+    position: relative;
+    border-radius: 4px;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.contacts-view-card {
+    border: 1px solid #C3D2DF;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(42, 61, 76, 0.14);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(42, 61, 76, 0.14);
+    box-shadow: 0px 2px 10px 0px rgba(42, 61, 76, 0.14);
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.contacts-card {
+    width: 16rem;
+    height: 22rem;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.basic-info {
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.left-group {
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 10;
+    box-sizing: border-box;
+}
+.contacts-card-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.img-card {
+    background-color: #ffffff;
+    color: #C3D2DF;
+    font-weight: 500 !important;
+    height: 64px;
+    width: 64px;
+    text-transform: uppercase;
+    display: flex;
+    border: none !important;
+    font-family: 'Rubik';
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    box-sizing: border-box;
+    font-size: 28.8px;
+    font-family: 'Rubik', sans-serif;
+    color: #C3D2DF;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 100%;
+
+}
+.contact-card-first-name {
+    color: #2A3D4C;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.contact-card-city-state {
+    text-align: center;
+    text-transform: capitalize;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+}

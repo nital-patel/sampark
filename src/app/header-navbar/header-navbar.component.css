@@ -60,6 +60,15 @@
     color: #067bc2;
     font-weight: 700;
     }
+    a { 
+        outline: 0px solid transparent; 
+        color: rgb(42, 61, 76);
+        border: none;
+    }
+    a:hover {
+        color: #067bc2;
+        font-weight: 700;
+    }
 }
 @media screen and (min-width: 200px) {
     nav {

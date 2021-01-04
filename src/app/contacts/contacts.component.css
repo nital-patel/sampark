@@ -1,3 +1,4 @@
+@media screen and (min-width: 800px) {
 .contacts-view-contanier {
     color: #2A3D4C;
     font-family: 'Rubik';
@@ -31,28 +32,7 @@ h2 {
     text-transform: uppercase;
     display: block;
 }
-.btn {
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: center;
-    align-items: flex-start;
-    cursor: default;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
-    box-sizing: border-box;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 6px;
-    border-width: 2px;
-    border-style: outset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-}
+
 .MuiButton-lable {
     margin: 0;
     cursor: pointer;
@@ -78,4 +58,82 @@ h2 {
     text-decoration: none;
     letter-spacing: normal;
     word-spacing: normal;
+}
+.contact-header-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+.contact-header-search-contanier {
+    position: relative;
+    margin-right: 1rem;
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;   
+    box-sizing: border-box;
+    display: flex;
+}
+.icon-search {
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    box-sizing: border-box;
+    color: #2A3D4C;
+    line-height: 1.5;
+}
+.contact-filter-search {
+    border: 1px solid #848EAC;
+    border-radius: 3px;
+    color: #848EAC;
+    height: 40px;
+    padding: 10px 35px 10px 45px;
+    font-size: 16px;
+    outline: none;
+    width: 325px;
+    box-sizing: border-box;
+}
+.city-container {
+    color: #2A3D4C;
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: inline;
+    padding: 15px;
+}
+.city-filter-input {
+    border: 1px solid #848EAC;
+    border-radius: 3px;
+    color: #848EAC;
+    height: 40px;
+    padding: 10px 35px 10px 10px;
+    font-size: 16px;
+    outline: none;
+    width: 200px;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
 }
